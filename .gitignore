@@ -1,0 +1,13 @@
+# Dependancies
+node_modules/
+config/
+.npm/
+
+# Editor
+typings/
+jsconfig.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
