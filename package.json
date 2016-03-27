@@ -13,6 +13,7 @@
   "author": "Michael Perrotte <mike@mikecorp.ca>",
   "license": "MIT",
   "dependencies": {
-    "maki": "^0.5.0"
+    "maki": "git://github.com/martindale/maki",
+    "mongoose": "^4.4.10"
   }
 }
