@@ -10,6 +10,10 @@
     "example",
     "maki"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemimik/marketplace.git"
+  },
   "author": "Michael Perrotte <mike@mikecorp.ca>",
   "license": "MIT",
   "dependencies": {

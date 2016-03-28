@@ -7,7 +7,7 @@ let User = {
     email: { type: String , max: 240 , unique: true, sparse: true },
     username: { type: String , max: 40 , slug: true },
     password: { type: String , max: 240 , masked: true , required: true },
-    roles: [{ type: String, enum: ['editor', 'shopper'] }],
+    roles: [ { type: String, enum: ['editor', 'shopper'] } ],
     created: { type: Date, default: Date.now, required: true },
     avatar: {
       url: { type: String , max: 240 , default: '/img/user-avatar.png' }
